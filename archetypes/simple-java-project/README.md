@@ -2,7 +2,7 @@
 This post contains a step-by-step guide on how to create a simple java application making use of maven. The Archetype Plugin is used to create a simple java project from an existing template called an archetype. The guide also illustrates how to build and then run the application using maven commands.
 
 ## Full Article
-The full article can be found on the [Code2Bits][Article1] website.
+The full article can be found on the [JavaNibble][Article1] website.
 
 ## Maven Archetype
 The archetype plugin allows the user to create a maven project from an existing template called an archetype. The generate goal generates a new project in a directory corresponding to the artifactId.  
