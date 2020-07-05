@@ -14,8 +14,9 @@ Maven is a build automation tool used primarily for Java projects. Maven assist 
 ## Maven Commands
 Maven can can be invoked via the command line in numerous ways. The following list is a small set of commands that can be used from the command line:
 
-* [Command Line Options](maven_commands/maven_command_line_options.md)
+* [Command Line Options][Maven_Command_Line_Options]
 * [Apache Maven Help Plugin][Apache_Maven_Help_Plugin]
+* [Apache Maven Dependency Plugin][Apache_Maven_Dependency_Plugin]
 
 ## Maven Code Examples
 
@@ -43,6 +44,7 @@ Maven can can be invoked via the command line in numerous ways. The following li
 The code in this repository is MIT licensed, and therefore free to use as you please for commercial or non-commercial purposes (see [LICENSE](LICENSE) for details).
 
 
+[Maven_Command_Line_Options]:maven_commands/maven_command_line_options.md
 [Apache_Maven_Help_Plugin]:maven_commands/apache_maven_help_plugin.md
-
+[Apache_Maven_Dependency_Plugin]:maven_commands/apache_maven_dependency_plugin.md
 
