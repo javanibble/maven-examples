@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.javanibble.maven.examples</groupId>
-    <artifactId>basic_dependency</artifactId>
+    <artifactId>simple-dependency</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     
     <properties>
