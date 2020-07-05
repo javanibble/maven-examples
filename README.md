@@ -44,7 +44,7 @@ Maven can can be invoked via the command line in numerous ways. The following li
 The code in this repository is MIT licensed, and therefore free to use as you please for commercial or non-commercial purposes (see [LICENSE](LICENSE) for details).
 
 
-[Maven_Command_Line_Options]:maven_commands/maven_command_line_options.md
-[Apache_Maven_Help_Plugin]:maven_commands/apache_maven_help_plugin.md
-[Apache_Maven_Dependency_Plugin]:maven_commands/apache_maven_dependency_plugin.md
+[Maven_Command_Line_Options]:maven-commands/maven_command_line_options.md
+[Apache_Maven_Help_Plugin]:maven-commands/apache_maven_help_plugin.md
+[Apache_Maven_Dependency_Plugin]:maven-commands/apache_maven_dependency_plugin.md
 
