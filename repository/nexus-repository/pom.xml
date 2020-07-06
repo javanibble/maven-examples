@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.javanibble.maven.examples</groupId>
+    <artifactId>nexus_repository</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>javanibble-snapshot</id>
+            <url>http://localhost:8081/repository/javanibble-snapshot/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>javanibble-release</id>
+            <url>http://localhost:8081/repository/javanibble-release/</url>
+        </repository>
+    </repositories>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>javanibble-snapshot</id>
+            <url>http://localhost:8081/repository/javanibble-snapshot/</url>
+        </snapshotRepository>
+        <repository>
+            <id>javanibble-release</id>
+            <url>http://localhost:8081/repository/javanibble-release/</url>
+        </repository>
+    </distributionManagement>
+    
+</project>
