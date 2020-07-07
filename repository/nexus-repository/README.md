@@ -6,12 +6,12 @@
           xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
   <servers>
     <server>
-        <id>code2bits-snapshot</id>
+        <id>javanibble-snapshot</id>
         <username>admin</username>
         <password>admin123</password>
     </server>
     <server>
-      <id>code2bits-release</id>
+      <id>javanibble-release</id>
       <username>admin</username>
       <password>admin123</password>
     </server>

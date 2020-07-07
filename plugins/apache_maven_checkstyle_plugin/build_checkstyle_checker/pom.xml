@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.javanibble.maven.examples</groupId>
-    <artifactId>clean-on-initialize-phase</artifactId>
+    <artifactId>build_checkstyle_checker</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     
     <properties>
@@ -18,18 +18,31 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-clean-plugin</artifactId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
                 <version>3.1.0</version>
+                <configuration>
+                    <configLocation>checkstyle.xml</configLocation>
+                </configuration>
                 <executions>
                     <execution>
-                        <id>clean-on-initialize-phase</id>
-                        <phase>initialize</phase>
+                        <id>code-checkstyle</id>
+                        <phase>validate</phase>
                         <goals>
-                            <goal>clean</goal>
+                            <goal>check</goal>
                         </goals>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-site-plugin</artifactId>
+                    <version>3.7.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
+
 </project>
